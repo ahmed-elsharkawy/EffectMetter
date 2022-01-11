@@ -1,0 +1,306 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width:1100px;
+    margin:0 auto;
+}
+.f-l{
+    float:left;
+}
+.f-r{
+    float:right;
+}
+/* start header */
+
+header{
+    padding:0;
+    margin:0;
+    background:#465;
+    height:600px;
+    background-image:url('images/flowe.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
+}
+
+header .cover{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(44, 17, 8, 0.4)
+}
+
+header .up{
+    height:100px;
+    background:rgba(255, 255, 255,0.8);
+    box-shadow:2px 1px 5px #aaa
+}
+header .up >div{
+    padding-top:30px
+}
+
+header .up .login{
+    margin:0 0 0 50px;
+    width:120px;
+    height:40px;
+    background:#de6d6e;
+    border-radius:8px;
+    text-align:right;
+    padding:8px 20px 0 0;
+    font:normal normal 20px/15px monospace;
+    color:#fff;
+    transition: all ease 1s;
+}
+header .up .login:hover{
+    cursor:pointer;
+    background:none;
+    border:2px solid #de6d6e;
+    color:#de6d6e;
+    
+}
+header .up .login i{
+    margin-right:15px;
+    font-size:21px
+}
+header .up ul{
+    list-style:none;
+    margin:5px 10px
+}
+header .up ul li{
+    padding:10px;
+    float:left;
+    margin:0 10px;
+    font:normal normal 22px/15px monospace;
+    color:#888;
+    text-transform:capitalize;
+    border-radius:5%;
+    border:2px solid none;
+}
+
+header .up ul li:hover{
+    cursor:pointer;
+    border:2px solid #de6d6e;    
+}
+header .up .logo{
+    font:normal normal 32px/25px  fantasy;
+    text-transform:uppercase;
+    color:#555
+}
+
+header .up .logo span{
+    color:#de6d6e
+}
+
+header .down{
+    text-align:center;
+    margin-top:250px;
+    color:#fff
+}
+header .down h1{
+    font:normal bold 50px/50px  "trebuchet ms";
+    text-transform:uppercase;
+    text-shadow:1px 1px 5px #999
+}
+header .down p{
+    font:normal normal 20px/25px  arial;
+}
+
+/* end header */
+
+
+
+/* ===================================================================================================================== */
+
+
+
+/* start article 1 */
+
+.art1{
+    height:500px;
+}
+.art1 .up{
+    text-align:center;
+    margin-top:50px
+}
+.art1 .up h2{
+    font:normal normal 33px/50px  'trebuchet ms';
+    text-transform:capitalize
+}
+.art1 .up p{
+    text-align:center;
+    font:normal normal 20px/35px  'trebuchet ms';
+    margin:10px;
+    color:#888
+}
+
+.art1 .down{
+    margin-top:30px
+}
+.art1 .down >div{
+    float:left;
+    width:200px;
+    height:200px;
+    margin:37px;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden
+    
+}
+.art1 .down .father1{
+    background-color:#4eb9f4;
+}
+.art1 .down .father2{
+    background-color:#6fc125;
+}
+.art1 .down .father3{
+    background-color:#ff5649;
+}
+.art1 .down .father4{
+    background-color:#e48f23;
+}
+.art1 .down >div .back{
+    text-align:center;
+    margin-top:30px;
+    position:absolute;
+    width:100%;
+}
+.art1 .down >div .back i{
+    font-size:80px;
+    color:#fff
+}
+.art1 .down >div .back p{
+    margin-top:10px;
+    font:normal normal 20px/35px  'trebuchet ms';
+    color:#333
+}
+.art1 .down >div .hover{
+    width:100%;
+    height:100%;
+    text-align:center;
+    font:normal normal 15px/22px  'trebuchet ms';
+    position:absolute;
+    bottom:200px;
+}
+.art1 .down >div .hover p{
+    display:inline-block;
+    text-align:center;
+    width:65%;
+    height:65%;
+    border-radius:50%;
+    margin-top:40px;
+    color:#fff
+}
+
+/* end article 1 */
+
+
+/* ======================================================================================================================= */
+
+
+/* start article 2 */
+
+.art{
+    overflow:hidden;
+    position:relative;
+    margin-top:60px
+}
+.art .part{
+    width:100%;
+    height: 220px;
+}
+
+.art .image{
+    width:20%;
+    height:200px;
+    margin-right:3%;
+    box-shadow:1px 1px 5px#999;
+    border:1px solid #999;
+    padding:2px
+}
+.art .image img{
+    width:100%;
+    height:100%
+}
+.art .data{
+    
+    width:70%;
+    height:100%;
+    margin-top:15px
+    }
+.art .data h2{
+    font:normal normal 28px/35px  'trebuchet ms';
+    margin-bottom:20px
+}
+.art .data p{
+    font:normal normal 15px/25px  'trebuchet ms';
+    color:#888
+}
+
+/* end articles */
+
+
+
+/* ======================================================================================================================== */
+
+
+
+/* start footer */
+footer{
+    height:350px;
+    margin-top:50px;
+    position:relative;
+    background:#262529;
+    color:#999
+}
+footer section >div{
+    display:inline-block;
+    width:15%;
+    margin:40px 11px 0 0
+}
+footer section >div h4{
+    font:normal normal 25px/70px  'trebuchet ms';
+}
+footer section >div ul{
+    list-style:none;
+    
+}
+footer section >div ul li{
+    font:normal lighter 16px/25px  'trebuchet ms';
+}
+footer section .contacts{
+    width:30%;
+    margin-top:100px
+}
+footer section .contacts ul{
+    display:inline-block;
+    margin-bottom:20px
+    
+}
+footer section .contacts ul li{
+    float:left;
+    margin:17px
+    
+}
+footer section .contacts ul li .facebook:hover{
+    color:#439bf2
+}
+footer section .contacts ul li .twitter:hover{
+    color:#43f2d7
+}
+footer section .contacts ul li .google:hover{
+    color:#8b0808
+}
+footer section .contacts ul li .linkedin:hover{
+    color:#011c8d
+}
+footer section .contacts ul li i{
+    font-size:55px;
+}
+footer section .contacts p{
+    text-align:center;
+    font:normal lighter 17px/25px  'trebuchet ms';
+}
+/* start footer */
